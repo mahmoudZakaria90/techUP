@@ -1,4 +1,6 @@
 #root {
+  display: grid;
+  grid-row-gap: 70px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
