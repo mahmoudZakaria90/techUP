@@ -1,0 +1,12 @@
+.upcomingText {
+  width: 500px;
+  margin: 0 auto;
+  letter-spacing: normal;
+  a {
+    display: inline-block;
+    margin: 15px 0;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
