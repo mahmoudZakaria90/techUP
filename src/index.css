@@ -57,6 +57,7 @@ h2 {
 }
 
 h2 {
+  font-size: 50px;
   letter-spacing: 5px;
 }
 
@@ -96,17 +97,4 @@ button:focus-visible {
 .bg-section {
   padding: 70px 0;
   margin: 70px -2rem;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
 }

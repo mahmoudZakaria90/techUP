@@ -14,6 +14,7 @@ const Upcoming = () => (
         Starting from: <span className="highlighted">5:00 pm - 6:00pm</span>
       </p>
     </p>
+    <button type="button">Get tickets</button>
   </section>
 );
 

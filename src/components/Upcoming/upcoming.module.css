@@ -4,7 +4,7 @@
 
 .upcomingText {
   width: 500px;
-  margin: 0 auto;
+  margin: 0 auto 25px;
   letter-spacing: normal;
   a {
     display: inline-block;
