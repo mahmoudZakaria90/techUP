@@ -90,7 +90,12 @@ button:focus-visible {
 }
 
 .section {
-  margin: 70px;
+  margin: 70px 0;
+}
+
+.bg-section {
+  padding: 70px 0;
+  margin: 70px -2rem;
 }
 
 @media (prefers-color-scheme: light) {

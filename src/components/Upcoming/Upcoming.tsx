@@ -1,6 +1,7 @@
 import css from "./upcoming.module.css";
+
 const Upcoming = () => (
-  <section className="section">
+  <section className={`${css.upcoming} bg-section`}>
     <h2>Upcoming</h2>
     <p className={css.upcomingText}>
       Event #1<br></br>

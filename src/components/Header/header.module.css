@@ -1,3 +1,33 @@
+header {
+  h1 {
+    span:nth-child(2) {
+      display: inline-block;
+      position: relative;
+      transform: rotate(20deg);
+      &::before {
+        content: "";
+        position: absolute;
+        top: 23px;
+        left: 26px;
+        width: 20px;
+        height: 55px;
+        background-color: black;
+        border-radius: 25px;
+      }
+      &::after {
+        content: "";
+        position: absolute;
+        bottom: 9px;
+        left: 32px;
+        width: 5px;
+        height: 26px;
+        background-color: black;
+        border-radius: 25px;
+      }
+    }
+  }
+}
 .headerSubText {
+  display: inline-block;
   letter-spacing: 5px;
 }

@@ -1,3 +1,7 @@
+.upcoming {
+  background-color: #e4e4e4;
+}
+
 .upcomingText {
   width: 500px;
   margin: 0 auto;
@@ -7,6 +11,9 @@
     margin: 15px 0;
     &:hover {
       text-decoration: underline;
+    }
+    :global(.highlighted) {
+      background-color: aquamarine;
     }
   }
 }
