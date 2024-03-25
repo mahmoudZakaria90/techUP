@@ -9,34 +9,8 @@
 
 .agendaWrapper {
   display: grid;
-  grid-template-columns: 300px 300px 300px;
+  grid-template-columns: repeat(3, minmax(300px, 1fr));
   grid-column-gap: 100px;
   justify-content: center;
   margin-top: 35px;
-}
-
-.speakerCard {
-  text-align: center;
-  font-size: 16px;
-}
-
-.speakerCardImage {
-  width: 200px;
-  height: 250px;
-  margin: 12px auto;
-  background-color: gray;
-  outline: 2px dashed #e4e4e4;
-  outline-offset: 5px;
-  & > img {
-    object-fit: cover;
-  }
-}
-
-.speakerCardBody {
-  & > p {
-    margin-bottom: 5px;
-  }
-  & > img {
-    margin: 0 5px;
-  }
 }

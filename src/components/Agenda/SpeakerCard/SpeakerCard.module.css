@@ -1,0 +1,29 @@
+.speakerCard {
+  text-align: center;
+  font-size: 16px;
+}
+
+.speakerCardImage {
+  width: 200px;
+  height: 250px;
+  margin: 15px auto 20px;
+  background-color: gray;
+  outline: 3px dashed #a7a7a7;
+  outline-offset: 5px;
+  & > img {
+    object-fit: cover;
+  }
+}
+
+.speakerCardBody {
+  & > h3 {
+    display: inline-block;
+  }
+  & > p {
+    margin-bottom: 15px;
+  }
+  & > a {
+    display: inline-block;
+    margin: 0 7px;
+  }
+}
